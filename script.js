@@ -3,7 +3,7 @@
  ************************/
 
 // Replace with your Google Apps Script Web App URL
-const WEB_APP_URL = "PASTE_YOUR_GAS_WEB_APP_URL_HERE";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwK7uIi5izxWikoQZiSA4FzxnHvADRo81DOS6vt4-k5ZRQ_Dt5zP9WbehbbyPA0sQ9E/exec";
 
 function toggleChatbot() {
   const chatbotWindow = document.getElementById("chatbot-window");
