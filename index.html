@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BigCommerce Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating Chatbot Button -->
+  <div id="chatbot-button" onclick="toggleChatbot()">Chat with us</div>
+
+  <!-- Chat Window -->
+  <div id="chatbot-window" class="hidden">
+    <div id="chatbot-header">
+      <h2>Ask Away!</h2>
+      <span id="close-button" onclick="toggleChatbot()">×</span>
+    </div>
+    <div id="chatbot-messages"></div>
+    <div id="chatbot-input">
+      <input type="text" id="userMessage" placeholder="Type your message here..." />
+      <input type="text" id="userEmail" placeholder="Email (Optional)" />
+      <input type="text" id="orderId" placeholder="Order ID (Optional)" />
+      <button id="sendBtn" onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
